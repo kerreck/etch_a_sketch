@@ -104,3 +104,7 @@ h1 {
 #but_trail.down {
     background-color: #E58D63;
 }
+
+button:focus {
+  outline: none;
+}
