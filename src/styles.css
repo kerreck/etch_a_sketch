@@ -1,26 +1,106 @@
-h2 {
-  font-family:arial;
-
+.footer {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    border-radius: 7px;
+    padding: 10px;
+    background: #FF9D6E;
+    border: 0px;
 }
 
-form {
-  display: inline-block;
+#setsize {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    border: 1px;
+    border-radius: 2px;
+    background: #FF7541;
 }
 
-#button {
-  display: inline-block;
-  height:20px;
-  width:70px;
-  background-color:#cc0000;
-  font-family:arial;
-  font-weight:bold;
-  color:#ffffff;
-  border-radius: 5px;
-  text-align:center;
-  margin-top:2px;
+#setsize:active {
+    background: #C24C1F;
 }
 
-.list {
-  font-family:garamond;
-  color:#cc0000;
+input {
+    background: white;
+    border: 0px;
+    border-radius: 2px;
+}
+
+.wrapper {
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+
+.wrapper_game {
+    display: block;
+    font-size: 0;
+    height: 640px;
+    margin: 2% auto auto;
+    width: 720px;
+    overflow: hidden;
+    text-align: center;
+}
+
+* {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: "Arial";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #FFF7EA;
+}
+
+h1 {
+    color: #FF9D6E;
+    text-align: center;
+    display: inline-block;
+    cursor: default;
+}
+
+.block {
+    width: 20px;
+    height: 20px;
+    background: #FF6163;
+    display: inline-block;
+    border: 1px solid #FF7A7C;
+}
+
+.switched {
+    width: 20px;
+    height: 20px;
+    background: #5AA4FF;
+    display: inline-block;
+    border: 1px solid #73B2FF;
+}
+
+.row {
+    width: auto;
+    max-width: 100%;
+    margin: 0;
+    max-height: 20px;
+}
+
+#tohide {
+    display: none;
+}
+
+#reset:active {
+    background-color: #E58D63;
+}
+
+#but_color.down,
+#but_opacity.down,
+#but_trail.down {
+    background-color: #E58D63;
 }
